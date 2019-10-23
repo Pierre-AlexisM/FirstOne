@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(245, 244, 244);
+    text-align: center;
+}
+.page {
+    color: greenyellow
+}
+* {
+    box-sizing: border-box;
+  }
+  section {
+      width: 600px;
+      text-align: center;
+  }
