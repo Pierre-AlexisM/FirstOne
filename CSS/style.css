@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(245, 245, 245);
+    text-align: center;  
+}
+.page {
+    text-align: center;
+    margin: 50px;
+    border-style: solid;
+    border-width:2px;
+}
+h1 {
+text-shadow: 4px 2px 5px black
+}
+header {
+    border-style: solid;
+    border-width: 10px;
+    border-color: green;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: forestgreen;
+    padding-bottom: 25px;
+    padding-top: -10px;
+    margin: 20px
+}
+.thumbnail-img b-loaded{
+    float:left;
+}
+.post-content {
+display:inline-block;
+}
