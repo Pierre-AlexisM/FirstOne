@@ -1,14 +1,30 @@
-body {
-    background-color: rgb(245, 244, 244);
-    text-align: center;
-}
-.page {
-    color: greenyellow
-}
 * {
     box-sizing: border-box;
   }
-  section {
-      width: 600px;
-      text-align: center;
+  body {
+    background-color: #fafafa;
   }
+header{
+  margin-top: 0;
+  display: flex;
+  justify-content: center
+}
+.primary-menu{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+hr{
+  margin: 32px auto;
+  width: 150%;
+  height: 0.8px;
+  background-color: rgb(225, 225, 225);
+  border: none;
+}
+#p01{
+  background-color:#fff;
+  border-style: solid;
+  border-color: rgb(225, 225, 225);
+  border-width:0.02px;
+}
