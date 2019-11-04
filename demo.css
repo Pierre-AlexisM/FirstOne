@@ -22,9 +22,54 @@ hr{
   background-color: rgb(225, 225, 225);
   border: none;
 }
-#p01{
+.content-inner{
+ display: block;
+ width: 1140px;
+ max-width: 90%;
+ margin:0 auto;
+}
+.content{
+  width: 68.7%;
+  float: left;
+  margin-top: -52px;
+  display: block;
   background-color:#fff;
   border-style: solid;
   border-color: rgb(225, 225, 225);
   border-width:0.02px;
+}
+.post-inner{
+  width: 629px;
+  max-width: 85%;
+  padding: 60px 0;
+  margin: auto;
+}
+.post-title{
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.6em;
+  line-height: 130%;
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+}
+.post-meta{
+  list-style-type: none;
+  display: flex;
+  justify-content:flex-start;
+  align-content: space-between;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  padding-left:0px;
+  margin-bottom:0px;
+}
+.post-content{
+  margin-top:50px;
+}
+.text-align{
+  text-align:justify;
+}
+.sidebar{
+  width: 25%;
+  float: right;
 }
