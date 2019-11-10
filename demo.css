@@ -25,12 +25,6 @@ hr{
   background-color: rgb(225, 225, 225);
   border: none;
 }
-.content-inner{
- display: block;
- width: 1140px;
- max-width: 90%;
- margin:0 auto;
-}
 .content{
   width: 68.7%;
   float: left;
@@ -41,6 +35,12 @@ hr{
   border-color: rgb(225, 225, 225);
   border-width:0.02px;
 }
+.content-inner{
+  display: block;
+  width: 1140px;
+  max-width: 90%;
+  margin:0 auto;
+ }
 .post-inner{
   width: 629px;
   max-width: 85%;
@@ -105,13 +105,13 @@ a:hover{
   max-height: 100%;
 }
 .slider{
-  overflow: hidden;
   width: 500px;
-  height: 500px;
+  overflow: hidden;
+  margin-bottom: 75px;
 }
 .slides{
-  width: calc(500px * 6);
-  animation: glisse 10sec infinite;
+  width: calc(500px*7);
+  animation: glisse 10s infinite;
 }
 .slide{
   float: left;
@@ -124,34 +124,34 @@ a:hover{
     transform: translateX(0)
   }
   16% {
-    transform: translateX(-500px)
+    transform: translateX(-505px)
   }
   21% {
-    transform: translateX(-500px)
+    transform: translateX(-505px)
   }
   33% {
-    transform: translateX(-1000px)
+    transform: translateX(-1010px)
   }
   38% {
-    transform: translateX(-1000px)
+    transform: translateX(-1010px)
   }
   50% {
-    transform: translateX(-1500px)
+    transform: translateX(-1510px)
   }
    55% {
-    transform: translateX(-1500px)
+    transform: translateX(-1510px)
   }
   66% {
-    transform: translateX(-2000px)
+    transform: translateX(-2015px)
   }
   71% {
-    transform: translateX(-2000px)
+    transform: translateX(-2015px)
   }
   83% {
-    transform: translateX(-2500px)
+    transform: translateX(-2517px)
   }
   88% {
-    transform: translateX(-2500px)
+    transform: translateX(-2517px)
   }
   100% {
     transform: translateX(0)
