@@ -63,7 +63,7 @@ hr{
   border-top: 1px solid #ddd;
   padding-top: 20px;
   padding-left:0px;
-  margin-bottom:0px;
+  margin-bottom:20px;
 }
 .post-author{
   text-transform: uppercase;
@@ -76,6 +76,9 @@ hr{
 }
 .post-content{
   display:flex
+}
+.resume{
+  display:inline-block;
 }
 .cover{
   width: 200px;
@@ -92,7 +95,65 @@ hr{
 a{
   text-decoration:none;
   color: #000;
+  margin:auto;
 }
 a:hover{
   text-decoration:underline;
+}
+.portrait{
+  max-width: 100%;
+  max-height: 100%;
+}
+.slider{
+  overflow: hidden;
+  width: 500px;
+  height: 500px;
+}
+.slides{
+  width: calc(500px * 6);
+  animation: glisse 10sec infinite;
+}
+.slide{
+  float: left;
+}
+@keyframes glisse {
+  0% {
+    transform: translateX(0)
+  }
+  5% {
+    transform: translateX(0)
+  }
+  16% {
+    transform: translateX(-500px)
+  }
+  21% {
+    transform: translateX(-500px)
+  }
+  33% {
+    transform: translateX(-1000px)
+  }
+  38% {
+    transform: translateX(-1000px)
+  }
+  50% {
+    transform: translateX(-1500px)
+  }
+   55% {
+    transform: translateX(-1500px)
+  }
+  66% {
+    transform: translateX(-2000px)
+  }
+  71% {
+    transform: translateX(-2000px)
+  }
+  83% {
+    transform: translateX(-2500px)
+  }
+  88% {
+    transform: translateX(-2500px)
+  }
+  100% {
+    transform: translateX(0)
+  }
 }
