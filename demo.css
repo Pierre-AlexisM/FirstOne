@@ -4,7 +4,9 @@
   body {
     background-color: #fafafa;
   }
-
+.bannière{
+  background-image:url("https://imagizer.imageshack.com/img921/2885/AtIKvV.jpg");
+}
 .pm{
   text-decoration:none;
 }
